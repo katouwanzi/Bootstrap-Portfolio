@@ -1,0 +1,101 @@
+/*basic, Bootstrap*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+header{
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width:100%;
+  }
+
+
+.container{
+    background-color:#ffffff;
+}
+
+.bg-light{
+    background-color:#4aaaa5!important;
+    color:#ffffff;
+    font-family:Georgia, Times, Times New Roman, serif;
+    color:#666666;
+    font-size:15px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size:1.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+
+#footer{
+    background-color:#666666;
+    height:50px;
+    display:block;
+    margin:0 auto;
+    border-top:8px solid #4aaaa5;
+    clear:both;
+    position:fixed;
+    bottom:0;
+    width:100%; 
+    text-align: center;
+    line-height:50px;
+    font-size:10px;
+    color:#cccccc;
+}
+
+/*index-About Page*/
+.img{
+    width:250px;
+    height:250px;
+    margin:5px 20px 10px 15px;
+    float:left;
+}
+
+h3{
+    color:#4aaaa5;
+    font-family:Georgia, Times, Times New Roman, serif;
+    margin-top:20px;
+}
+
+@media (max-width:680px){
+    .img{
+    width:320px;
+    height:320px;
+    margin:5px 20px 10px 15px;
+    float:left;
+}
+}
+
+/*index-Portfolio Page*/
+
+.part{
+    background-color:#4aaaa5;
+    text-align:center;
+    color:#ffffff;
+    position: absolute;
+    font-size:25px;
+    width:100%; 
+    bottom:15%; 
+}
+
+.figure{
+    position: relative;
+}
+.figure-img{
+    margin-bottom:20px;
+}
+
+/*index-Contact Page*/
+input[type=submit]{
+    padding:8px 22px 8px 22px;
+    background-color:#4aaaa5;
+    font-size:15px;
+    color:white;
+    margin-bottom:20px;
+}
